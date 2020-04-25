@@ -1,137 +1,166 @@
 # CSS
 
-## 语言
+## 是什么
 
-### 选择器
+- https://developer.mozilla.org/zh-CN/docs/Web/CSS
 
-#### id
+### 1、指层叠样式表 (Cascading Style Sheets)
 
-##### #user
+### 2、是一种 样式表语言，用来描述 HTML 或 XML（包括如 SVG、MathML、XHTML 之类的 XML 分支语言）文档元素的呈现
 
-#### class
+### 3、CSS 描述了在屏幕、纸质、音频等其它媒体上的元素应该如何被渲染的问题。
 
-##### .name
+## 如何划分
 
-#### tag
+### 语言
 
-##### h1
+#### 选择器
 
-#### 后代选择器
+- important>内联样式 > ID选择器 > 类选择器 = 属性选择器 = 伪类选择器 > 元素选择器 = 关系选择器 = 伪元素选择器 > 通配符选择器>继承
+- 通配符选择器对于特殊性没有任何贡献
 
-##### .name .color
+##### id
 
-#### 伪类选择器
+###### #user
 
-##### :hover
+##### class
 
-#### 伪元素选择器
+###### .name
 
-##### :first-letter
+##### tag
 
-#### 属性选择器
+###### h1
 
-##### img[src"="space"]
+##### 后代选择器
 
-#### 兄弟选择器
+###### .name .color
 
-##### +
+##### 伪类选择器
 
-#### 子选择器
+###### :hover
 
-##### >
+##### 伪元素选择器
 
-### @rule
+###### :first-letter
 
-#### @import
+##### 属性选择器
+
+###### img[src"="space"]
+
+##### 兄弟选择器
+
+###### +
+
+##### 子选择器
+
+###### >
+
+#### @rule
+
+##### @import
 
 - 用于从其他样式表导入样式规则
 
-#### @keyframes
+##### @keyframes
 
-#### @font-face
+##### @font-face
 
-#### @media
+##### @media
 
-### 单位
+#### 单位
 
-#### 时间
+##### 时间
 
-##### s
+###### s
 
-##### ms
+###### ms
 
-#### 角度
+##### 角度
 
-##### deg
+###### deg
 
-#### 大小
+##### 大小
 
-##### vm、vh
+###### vm、vh
 
-##### ex
+###### ex
 
-##### em
+###### em
 
-##### rem
+###### rem
 
-##### %
+###### %
 
-##### px
+###### px
 
-## 功能
+### 功能
+
+#### 布局
+
+##### block
+
+##### inline
+
+##### inline-block
+
+##### position
+
+##### table
+
+##### flex
+
+#### 绘制
+
+##### 颜色
+
+###### color
+
+###### background-color
+
+###### border-color
+
+##### 形状
+
+###### width
+
+###### height
+
+##### 文字
+
+###### text-algin
+
+###### vertical-align
+
+###### font
+
+###### direction
+
+##### 背景
+
+###### background
+
+##### 表格
+
+###### border-collapse
+
+#### 交互
+
+##### 动画
+
+###### transition
+
+##### hover
+
+## 常见问题
 
 ### 布局
 
-#### block
+### 浮动
 
-#### inline
+### 盒子模型
 
-#### inline-block
+### 形状
 
-#### positioned
+### 文档流的理解
 
-#### table
-
-#### flex
-
-### 绘制
-
-#### 颜色
-
-##### color
-
-##### background-color
-
-##### border-color
-
-#### 形状
-
-##### width
-
-##### height
-
-#### 文字
-
-##### text-algin
-
-##### vertical-align
-
-##### font
-
-##### direction
-
-#### 背景
-
-##### background
-
-#### 表格
-
-##### border-collapse
-
-### 交互
-
-#### 动画
-
-##### transition
-
-#### hover
+### 兼容性
